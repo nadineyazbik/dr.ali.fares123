@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Ali Fares - Orthopedic & Sports Surgery",
+  "description": "Premium academic clinical portal for orthopedic trauma, sports surgery, and arthroscopy by Dr. Ali Fares, featuring multilingual support, interactive symptom triage, and athletic recovery trackers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
