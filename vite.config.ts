@@ -6,7 +6,11 @@ import imagemin from 'vite-plugin-imagemin';
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss(), imagemin()],
+    plugins: [react(), tailwindcss(), imagemin({
+  mozjpeg: {
+    quality: 80,
+  },
+})],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
